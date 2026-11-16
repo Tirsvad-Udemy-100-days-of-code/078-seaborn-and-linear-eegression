@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=75"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,9 @@ version = "0.1.0"
 description = "Day 78 of Udemy's 100 Days of Code: Seaborn charts and linear regression on movie budget and revenue data."
 readme = "README.md"
 requires-python = ">=3.13"
-license = { file = "LICENSE" }
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
+authors = [{ name = "Jens Tirsvad Nielsen" }]
 # Exact versions: the project is reproducible. Raise them on purpose, then run the tests.
 dependencies = [
     "pandas==3.1.1",
@@ -16,6 +18,11 @@ dependencies = [
     "seaborn==0.13.2",
     "scikit-learn==1.9.1",
 ]
+
+[project.urls]
+Repository = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-seaborn-and-linear-regression"
+Documentation = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-seaborn-and-linear-regression/wiki"
+"Issue tracker" = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-seaborn-and-linear-regression/issues"
 
 [project.optional-dependencies]
 dev = [

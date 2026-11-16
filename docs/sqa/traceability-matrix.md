@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | TM-001 |
-| CrossReference | [BC-001] |
+| CrossReference | [BC-001], [PP-001], [MIL-004] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-12 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [75358c9] |
+| 2026-11-12 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [75358c9] |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | S01 (AI as stand-in) | Updated for the baseline milestone MIL-004: set the domain education of the changed documents, added the milestone MIL-004, the review records RC-014 to RC-017 and the wiki review; reviewed in autonomous mode, not independent | [1e9da96] |
 
 ---
 
@@ -21,14 +22,15 @@ Tracks backward and forward links between artifact instances so that traceabilit
 
 | Artifact Instance | Type | Language | Domain | Upstream (Backward Link) | Downstream (Forward Link) | Last Reviewed (RC-ID) |
 | --- | --- | --- | --- | --- | --- | --- |
-| [BC-001] | BC | en | it | - | [SA-001], [PP-001] | [RC-001] |
+| [BC-001] | BC | en | education | - | [SA-001], [PP-001], [MIL-004] | [RC-014], [RC-001] |
 | [SA-001] | SA | en | it | [BC-001] | [PP-001] | [RC-002] |
-| [PP-001] | PP | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003] | [RC-003] |
+| [PP-001] | PP | en | education | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-015], [RC-003] |
 | [MIL-001] | MIL | en | it | [PP-001] | [MIL-002] | [RC-004] |
 | [MIL-002] | MIL | en | it | [MIL-001] | [MIL-003] | [RC-005] |
 | [PY-001] | PY | - | - | [MIL-002] | - | [RC-013], [RC-010], [RC-007] |
-| [WIKI-001] | WIKI | en, da, ms | it | [MIL-003] | - | [RC-012], [RC-011], [RC-009], [RC-008] |
-| [MIL-003] | MIL | en | it | [MIL-002] | - | [RC-006] |
+| [WIKI-001] | WIKI | en, da, ms | education | [MIL-003], [MIL-004] | - | [RC-017], [RC-012], [RC-011], [RC-009], [RC-008] |
+| [MIL-003] | MIL | en | it | [MIL-002] | [MIL-004] | [RC-006] |
+| [MIL-004] | MIL | en | education | [PP-001], [BC-001], [MIL-003] | - | [RC-016] |
 
 ## Concern Coverage
 
@@ -71,3 +73,9 @@ Tracks backward and forward links between artifact instances so that traceabilit
 [PY-001]: ../../src/movie_regression
 [WIKI-001]: ../wiki/Home.md
 [75358c9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/75358c998f55477ee25c074190b930f013dacf95
+[MIL-004]: ../milestones/mil-004-framework-baseline.md
+[RC-014]: ./reviews/rc-014-business-case-baseline.md
+[RC-015]: ./reviews/rc-015-project-plan-baseline.md
+[RC-016]: ./reviews/rc-016-milestone-004.md
+[RC-017]: ./reviews/rc-017-wiki-baseline.md
+[1e9da96]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/1e9da96177440f81daa80c10ff759d21cd71224b
