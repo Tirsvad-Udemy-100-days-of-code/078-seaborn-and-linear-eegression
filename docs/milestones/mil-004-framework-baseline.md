@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; accepted with the Go verdict of the review record (autonomous, not independent) | pending |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; accepted with the Go verdict of the review record (autonomous, not independent) | [1e9da96] |
 
 ---
 
@@ -77,3 +77,4 @@ A merged pull request that holds: the updated Business Case, Project Plan, Trace
 [BC-001]: ../business-case.md
 [PP-001]: ../project-plan.md
 [MIL-003]: ./mil-003-notebook-and-docs.md
+[1e9da96]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/1e9da96177440f81daa80c10ff759d21cd71224b

@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-12 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [75358c9] |
-| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | S01 (AI as stand-in) | Updated for the baseline milestone MIL-004: set the domain education of the changed documents, added the milestone MIL-004, the review records RC-014 to RC-017 and the wiki review; reviewed in autonomous mode, not independent | pending |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | S01 (AI as stand-in) | Updated for the baseline milestone MIL-004: set the domain education of the changed documents, added the milestone MIL-004, the review records RC-014 to RC-017 and the wiki review; reviewed in autonomous mode, not independent | [1e9da96] |
 
 ---
 
@@ -78,3 +78,4 @@ Tracks backward and forward links between artifact instances so that traceabilit
 [RC-015]: ./reviews/rc-015-project-plan-baseline.md
 [RC-016]: ./reviews/rc-016-milestone-004.md
 [RC-017]: ./reviews/rc-017-wiki-baseline.md
+[1e9da96]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/1e9da96177440f81daa80c10ff759d21cd71224b

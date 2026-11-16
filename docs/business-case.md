@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-12 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [75358c9] |
-| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | S01 (AI as stand-in) | Added objective 7, success criterion 7, a scope item, an out-of-scope item, a risk, assumptions and constraints for the baseline milestone MIL-004; corrected the risk row that said `pyproject.toml` pins exact versions (RC-013 pinned exact versions); set the domain to education; reviewed in autonomous mode, not independent<br>Reviewed in RC-014: Go | pending |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | S01 (AI as stand-in) | Added objective 7, success criterion 7, a scope item, an out-of-scope item, a risk, assumptions and constraints for the baseline milestone MIL-004; corrected the risk row that said `pyproject.toml` pins exact versions (RC-013 pinned exact versions); set the domain to education; reviewed in autonomous mode, not independent<br>Reviewed in RC-014: Go | [1e9da96] |
 
 ---
 
@@ -138,3 +138,4 @@ Proceed — the scope is small, the data is available and the result serves all 
 [75358c9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/75358c998f55477ee25c074190b930f013dacf95
 [PP-001]: ./project-plan.md
 [MIL-004]: ./milestones/mil-004-framework-baseline.md
+[1e9da96]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/1e9da96177440f81daa80c10ff759d21cd71224b

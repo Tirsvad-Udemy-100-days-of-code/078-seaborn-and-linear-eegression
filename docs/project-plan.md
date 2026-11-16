@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-12 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Repository renamed to 078-Seaborn-and-Linear-Regression: links updated | [0c53f49] |
 | 2026-11-12 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Link the synced milestones | [05893f4] |
-| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | S01 (AI as stand-in) | Added the baseline gateway MIL-004 with its schedule row, scope coverage, dependency, risk and Gantt entries; recorded the move of the end date, the domain, the open pull request #33, the prompt log and the unchanged wiki in the Planning Assumptions and Open Issues; corrected the open issue about the traceability matrix, which exists as TM-001; set the domain to education; reviewed in autonomous mode, not independent<br>Reviewed in RC-015: Go | pending |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | S01 (AI as stand-in) | Added the baseline gateway MIL-004 with its schedule row, scope coverage, dependency, risk and Gantt entries; recorded the move of the end date, the domain, the open pull request #33, the prompt log and the unchanged wiki in the Planning Assumptions and Open Issues; corrected the open issue about the traceability matrix, which exists as TM-001; set the domain to education; reviewed in autonomous mode, not independent<br>Reviewed in RC-015: Go | [1e9da96] |
 
 ---
 
@@ -103,3 +103,4 @@ A No-Go on a gateway holds the later gateways; S01 decides whether the end date 
 [0c53f49]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/0c53f4937356313c050ca363dd93dd52aa3a4cc3
 [MIL-004]: ./milestones/mil-004-framework-baseline.md
 [ms-599]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-seaborn-and-linear-regression/milestone/599
+[1e9da96]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/1e9da96177440f81daa80c10ff759d21cd71224b
