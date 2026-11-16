@@ -43,4 +43,5 @@ Go — criterion 14 is Pass. The earlier record [RC-008] passed every other chec
 [WIKI-001]: ../../wiki/Home.md
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [RC-008]: ./rc-008-wiki-structure.md
+[RC-009]: ./rc-009-wiki-language.md
 [05893f4]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/commit/05893f41aae21135dc35b92b751f812348264c7a

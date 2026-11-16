@@ -23,6 +23,9 @@ Day 78 of Udemy's *100 Days of Code: The Complete Python Pro Bootcamp*: do highe
 | `notebooks/` | The Jupyter notebook that follows the nine lecture steps |
 | `docs/` | Project documents, the screenshots (`docs/images/`) and the wiki sources (`docs/wiki/`: English, Danish, Bahasa Malaysia) |
 | `scripts/` | `scan.sh` (opengrep), `make_screenshots.py` and the notebook generator |
+| `framework/` | The SQA and QC framework (a git submodule) that the project documents follow |
+| `.editorconfig` | The editor settings of the framework baseline |
+| `.env.example` | Placeholders for the git host tokens that the framework scripts read; the program itself reads no `.env` file |
 
 The question of the day: do higher film budgets lead to more revenue at the box office? The answer is a regression of the worldwide gross on the production budget: weak for films before 1970 (R-squared 0.03), decent for films from 1970 (R-squared 0.56).
 
@@ -137,7 +140,7 @@ bash scripts/scan.sh
 
 ## 📄 License
 
-GNU Affero General Public License v3.0, see [LICENSE][license].
+GNU Affero General Public License v3.0 only (AGPL-3.0-only), see [LICENSE][license].
 
 ## 🔗 Links
 
@@ -151,7 +154,6 @@ The documents a newcomer needs, in reading order.
 
 | Document | What it tells you |
 | --- | --- |
-| [AGENTS.md][agents] | The rules AI agents follow in this repository |
 | [Business Case][BC-001] | Why the project exists, its scope and success criteria |
 | [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
 | [Project Plan][PP-001] | The gateways and their schedule |
@@ -159,8 +161,6 @@ The documents a newcomer needs, in reading order.
 | [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
 | [Wiki sources][wikisrc] | The lecture steps explained in English, Danish and Bahasa Malaysia |
 | [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
-| [Framework README][framework-readme] | The framework this project uses |
-| [Framework changelog][framework-changelog] | What changed in each framework release |
 
 ---
 
@@ -169,7 +169,6 @@ The documents a newcomer needs, in reading order.
 [repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression
 [documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/wiki
 [issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/078-Seaborn-and-Linear-Regression/issues
-[agents]: ./AGENTS.md
 [BC-001]: ./docs/business-case.md
 [SA-001]: ./docs/stakeholder-analysis.md
 [PP-001]: ./docs/project-plan.md
@@ -177,5 +176,3 @@ The documents a newcomer needs, in reading order.
 [registry]: ./docs/artifact-registry.md
 [wikisrc]: ./docs/wiki/Home.md
 [TM-001]: ./docs/sqa/traceability-matrix.md
-[framework-readme]: ./framework/README.md
-[framework-changelog]: ./framework/CHANGELOG.md
